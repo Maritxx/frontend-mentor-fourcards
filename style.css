@@ -4,6 +4,15 @@ body {
 	background-color: var(--bg-primary);
 }
 
+.feature-card__section {
+	min-height: 100vh;
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
 /*Font Styles*/
 h1 {
 	font-size: 2.5rem;
@@ -27,4 +36,70 @@ h3 {
 	font-size: 0.9375rem;
 	color: var(--text-primary);
 	font-weight: 400;
+}
+
+.card__text {
+	font-size: 0.8125rem;
+	font-weight: 200;
+	color: var(--text-primary);
+}
+
+
+/*Feature Cards Section*/
+.heading__holder {
+	max-width: 600px;
+	text-align: center;
+	padding: 100px;
+}
+
+.card__box {
+	background-color: var(--bg-secondary);
+	border-radius: 10px;
+	-webkit-box-shadow: -3px 15px 12px 4px rgba(163,165,174,0.2);
+	-moz-box-shadow: -3px 15px 12px 4px rgba(163,165,174,0.2);
+	box-shadow: -3px 15px 12px 4px rgba(163,165,174,0.2);
+	border-top: 5px;
+}
+
+.card__cyan {
+	border-top-color: var(--card-cyan);
+}
+
+.card__red {
+	border-top-color: var(--card-red);
+}
+
+.card__orange {
+	border-top-color: var(--card-orange);
+}
+
+.card__blue {
+	border-top-color: var(--card-blue);
+}
+
+.card__box img {
+	float: right;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width: 1024px){
+	.cards__holder {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.card-left__holder, .card-right__holder {
+		display: flex;
+		align-items: center;
+		flex: 0 1 33%;
+	}
+
+	.cards-middle__holder {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex: 0 1 33%;
+	}
+
 }
