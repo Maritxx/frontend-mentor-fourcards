@@ -7,6 +7,7 @@ body {
 .feature-card__section {
 	min-height: 100vh;
 	max-width: 1200px;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -15,13 +16,13 @@ body {
 
 /*Font Styles*/
 h1 {
-	font-size: 2.5rem;
-	font-weight: 400;
+	font-size: 2.3rem;
+	font-weight: 200;
 	color: var(--heading-primary);
 }
 
 h2 {
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	font-weight: 600;
 	color: var(--heading-primary);
 }
@@ -35,7 +36,7 @@ h3 {
 .heading__holder p {
 	font-size: 0.9375rem;
 	color: var(--text-primary);
-	font-weight: 400;
+	font-weight: 200;
 }
 
 .card__text {
@@ -47,9 +48,9 @@ h3 {
 
 /*Feature Cards Section*/
 .heading__holder {
-	max-width: 600px;
+	max-width: 700px;
 	text-align: center;
-	padding: 100px;
+	padding: 50px;
 }
 
 .card__box {
@@ -59,6 +60,7 @@ h3 {
 	-moz-box-shadow: -3px 15px 12px 4px rgba(163,165,174,0.2);
 	box-shadow: -3px 15px 12px 4px rgba(163,165,174,0.2);
 	border-top: 5px;
+	border-style: solid;
 }
 
 .card__cyan {
